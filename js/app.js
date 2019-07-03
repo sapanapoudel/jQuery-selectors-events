@@ -15,8 +15,7 @@ $(document).ready(function () {
       if(el.keyword === drVal){
         newImages.push(el);
       }
-
-    })   
+    })
     newImages.forEach(image => {
       renderImages(image);
     });
