@@ -1,0 +1,15 @@
+#gallary {
+  width: 980px;
+  margin: auto;
+}
+#gallary section {
+  width:230px;
+  height:300px;
+  margin-left: 15px;
+  float: left;
+}
+img {
+  width:200px;
+  height:200px; 
+  margin:auto;
+}
