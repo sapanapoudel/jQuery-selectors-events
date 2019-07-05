@@ -7,7 +7,7 @@ Estimate of time needed to complete: 0.5
 
 Start time: 12:22
 
-Finish time: 1:25
+Finish time: 13:25
 
 Actual time needed to complete: 1
 
@@ -16,7 +16,7 @@ Number and name of feature: Templating
 
 Estimate of time needed to complete: 0.5
 
-Start time: _____
+Start time: 13:35
 
 Finish time: _____
 
