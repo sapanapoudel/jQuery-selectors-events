@@ -1,8 +1,5 @@
 # jQuery-selectors-events
 
-
-
-
 Number and name of feature: Pagination
 
 Estimate of time needed to complete: 0.5
@@ -46,3 +43,6 @@ Start time: _____
 Finish time: _____
 
 Actual time needed to complete: _____
+
+
+Steven and Sapana
