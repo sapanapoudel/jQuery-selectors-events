@@ -100,16 +100,46 @@ $(document).ready(function () {
     $.get('./data/page-1.json', function (data) {
       handleData(data, 1)
     });
-    // hidePage(2)
   })
 
   $('#show2').on('click', function () {
     $.get('./data/page-2.json', function (data) {
       handleData(data, 1)
     });
-    // hidePage(1)
   })
-  // hidePage(2)
-  //TODO: Stretch: Sort
+  $('#sortHorns').on('click', function(){
+    $gallaryEl.children().each(
+      function(){
+        this.remove();
+      })
+    images.sort( (a,b)=>{
+      console.log(a.horns -b.horns)
+      return a.horns -b.horns;
+    })
+    images.forEach(image => {
+      renderImages(image);
+    });
+  })
+  $('#sortName').on('click', function(){
+    $gallaryEl.children().each(
+      function(){
+        this.remove();
+      })
+    images.sort((a,b)=>{
+      let aName = a.title;
+      let bName = b.title;
+      if (aName < bName){
+        return -1
+      } else if (aName > bName){
+        return 1
+      } else {
+        return 0;
+      }
+      
+    })
+    images.forEach(image => {
+      renderImages(image);
+    });
+  })
 
 });
