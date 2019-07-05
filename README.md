@@ -20,18 +20,18 @@ Start time: 13:35
 
 Finish time: 13:45
 
-Actual time needed to complete: 10
+Actual time needed to complete: 10m
 
 
 Number and name of feature: Styling with Flexbox
 
 Estimate of time needed to complete: 0.5
 
-Start time: _____
+Start time: 13:47
 
-Finish time: _____
+Finish time: 14:00
 
-Actual time needed to complete: _____
+Actual time needed to complete: 13m
 
 
 
