@@ -7,11 +7,11 @@ Number and name of feature: Pagination
 
 Estimate of time needed to complete: 0.5
 
-Start time: _____
+Start time: 12:22
 
-Finish time: _____
+Finish time: 1:25
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1
 
 
 Number and name of feature: Templating
