@@ -11,7 +11,15 @@
   <link rel="stylesheet" href="./css/modules.css">
 
 <link href="https://fonts.googleapis.com/css?family=Barriecito&display=swap" rel="stylesheet">
+<script id="template" type="text/x-handlebars-template">
+  <section class="image">
+    <h2>{{title}}</h2>
+    <h3>{{keyword}} with {{horns}} horns.</h3>
+    <img src="{{{image_url}}}" alt="{{description}}">
+    <p>{{description}}</p>
+  </section>
 
+</script>
 </head>
 <body>
   <!-- dropdown -->
@@ -27,13 +35,8 @@
     <section id='gallary'>
 
     </section>
-    <section class="image">
-        <h2></h2>
-        <h3></h3>
-        <img src="" alt="">
-        <p></p>
-      </section>
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.2/handlebars.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
   <script type="text/javascript" src="./js/app.js"></script>
 </body>

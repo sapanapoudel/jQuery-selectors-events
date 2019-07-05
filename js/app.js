@@ -30,17 +30,11 @@ $(document).ready(function () {
     images.push(this);
   }
   function renderImages(image) {
-    let $newSection = $(`<section class="${image.page}"></section>`);
-    let $imageTemplate = $('.image').html();
-    $newSection.html($imageTemplate);
-    $newSection.find('h2').text(image.title)
-    $newSection.find('img').attr({
-      'src': image.image_url,
-      'alt': image.description
-    })
-    $newSection.find('p').text(image.keyword)
-    $newSection.find('h3').text(`horn count: ${image.horns}`)
-    $gallaryEl.append($newSection);
+    const source = $('#template').html();
+    const template = Handlebars.compile(source);
+    const context = image;
+    const newHtml = template(context);
+    $gallaryEl.append(newHtml);
   }
   Image.getImages = function () {
     $.get('./data/page-1.json', function (data) {
