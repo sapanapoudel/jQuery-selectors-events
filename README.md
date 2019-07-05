@@ -39,11 +39,11 @@ Number and name of feature: Sort the images
 
 Estimate of time needed to complete: 0.5
 
-Start time: _____
+Start time: 1400
 
-Finish time: _____
+Finish time: 1414
 
-Actual time needed to complete: _____
+Actual time needed to complete: 14m
 
 
 Number and name of feature: 1. Display images 
